@@ -43,3 +43,4 @@ df = sortedPopMovieStats[popularMovies].join(pd.DataFrame(similarMovies, columns
 
 df = df.sort_values(['similarity'], ascending=False)
 print(df.head())
+
